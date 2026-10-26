@@ -2,15 +2,6 @@
 
 A simple, fast loader for the [MNIST dataset](https://yann.lecun.org/exdb/mnist/index.html) of handwritten digits.
 
-## Features
-
-* Correct & Safe: Parses the IDX file format according to the official specification.
-* Ergonomic API: Provides a simple Image struct with helpful methods (as_u8_array, as_f32_array, as_f64_array, etc.).
-* Expressive Errors: Uses a custom MnistError enum for precise, programmatic error handling.
-* ASCII Visualization: Implements the Display trait on Image for quick terminal-based viewing.
-* Optional Plotting: Includes a plotting feature flag that enables graphical display of images via gnuplot.
-* Lightweight: Has zero dependencies by default. gnuplot is only included when the plotting feature is enabled.
-
 ## Getting Started
 Follow these steps to get the data and run the included demo application.
 
