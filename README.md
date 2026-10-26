@@ -45,6 +45,12 @@ Your MNIST directory should now contain the four uncompressed data files.
 ### 3. Run the Demo Application
 The repository includes a demo binary that uses this library to display images.
 
+```bash
+./demo
+usage: ./demo <data-dir> <train|test> <index>
+```
+
+
 To show an image as ASCII art in the terminal:
 (This command displays image #2 from the training set)
 
@@ -84,13 +90,6 @@ Example output:
 
 ```
 
-
-## Demo Application Command-Line Arguments
-
-```bash
-./demo
-usage: ./demo <data-dir> <train|test> <index>
-```
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
