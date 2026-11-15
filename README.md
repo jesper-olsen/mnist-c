@@ -1,4 +1,4 @@
-# MNIST Parser for Rust 
+# MNIST Parser for C
 
 A simple, fast loader for the [MNIST dataset](https://yann.lecun.org/exdb/mnist/index.html) of handwritten digits.
 
