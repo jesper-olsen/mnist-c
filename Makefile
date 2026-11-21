@@ -3,8 +3,8 @@ CFLAGS = -Wall -Wextra -O3 -std=c23 -ffast-math -fno-finite-math-only -march=nat
 #CFLAGS = -Wall -O0 -std=c23 -g -fsanitize=address -fsanitize=thread
 LDFLAGS = -lm
 
-DEMO_SRC := demo.c mnist.c
-SRC := demo.c mnist.c
+DEMO_SRC := demo.c
+SRC := demo.c
 HEADERS := mnist.h 
 
 ASTYLE_OPTS := --style=kr \
